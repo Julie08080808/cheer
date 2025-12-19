@@ -47,9 +47,9 @@
 |  | — | in4 | GPIO5 (Pin 29) |
 
 ## Existing Library/Software 技術概覽
-- Docker (Docker compose、image)
-- GPIO
-- 
+- Docker (Docker image 、 Docker container)
+- GPIO (RPi.GPIO==0.7.1)
+
 
 
 <!-- Which libraries do you use while you implement the project -->
@@ -77,23 +77,75 @@
 - Docker 包裝整個專案
 
 ## Installation 安裝
-**需要連同一個網路**
-教學初學者如何使用docker
-從安裝開始
-ㄗ再來如何匯入這個docker檔
-
-首先要先安裝docker
+在建立這個專案之前，我們需要先確認樹莓派已安裝**Raspberry Pi OS（64-bit)**，並且要確保**電腦與樹梅派在同一個網路環境**，接著，為了方便後續操作，我們會先透過遠端方式登入樹莓派，進行相關設定與操作。
+```
+ssh [樹梅派主機名稱]@[樹梅派ip]
+```
+### 在樹莓派安裝 Git (可以下載 GitHub 的專案到我們的樹梅派）
+在下載之前，我們要先更新一下
+```
+sudo apt update
+```
+安裝git，並確認是否安裝成功 (看到版本號就代表成功)
+```
+sudo apt install git -y
+```
+```
+git --version
 
 ```
-final_project/
+### 從 GitHub 下載 cheer 專案
+可以在樹梅派中，選擇一個你想存放專案的位置，並進去(在這邊我們選一了 home)
+```
+cd ~
+```
+使用 git clone 下載專案
+```
+git clone https://github.com/Julie08080808/cheer.git
+```
+進入專案資料夾
+```
+cd cheer
+```
+確認專案內容
+```
+ls -al cheer
+```
+應該會看到端案列出以下這幾個檔案，代表專案下載成功！
+```
+cheer/
 ├── main.py               # FastAPI
 ├── game_logic.py 
 ├── pump_controller.py    # GPIO 控制程式
+├── QA.py
+├── PartyGame             # 前端網頁
 ├── requirements.txt
 ├── Dockerfile
 └── .dockerignore
-
 ```
+
+### 在樹莓派安裝 Docker
+首先要使用docker在樹梅派安裝docker，才可以對我們的專案進行使用，
+#### 下載並執行官方安裝腳本
+```
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh ./get-docker.sh
+```
+#### 設定使用者權限(選擇性)
+```
+# 將目前使用者加入 docker 群組
+sudo usermod -aG docker $USER
+
+# 重新登入或執行以下命令生效
+newgrp docker
+
+# 測試安裝
+docker --version
+```
+這樣我們的環境就建立好了!!
+
+
+
 
 <!-- How do the user install with your project? -->
 
@@ -218,6 +270,9 @@ final_project/
 - 宣佑
 
 ## 客串名單
-陳章銓、張峻碩、柏瑋學長
+BlueT、蓬萊人偶、Josh學長、陳章銓(Jerry)、張峻碩、李玨叡(Jerry)
 
 ## References
+https://www.youtube.com/watch?v=Ytjkh6xWdrY&t=212s
+https://atceiling.blogspot.com/2014/01/raspberry-pigpio.html
+https://hackmd.io/@ncnu-opensource/book/https%3A%2F%2Fhackmd.io%2F%40ncnu-opensource%2FSJfAeJSTle#Hello-World-%E7%AF%84%E4%BE%8B
