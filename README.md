@@ -37,14 +37,14 @@
 硬體腳位對應
 | 幫浦 | L298N（第一台） | L298N（第二台） | 樹莓派 GPIO（實體腳位） |
 |------|----------------|----------------|-------------------------|
-| 第一顆幫浦 | in1 | — | GPIO22 (Pin 15) |
-|  | in2 | — | GPIO27 (Pin 13) |
-| 第二顆幫浦 | in3 | — | GPIO17 (Pin 11) |
-|  | in4 | — | GPIO4 (Pin 7) |
+| 第一顆幫浦 | in1 | — | GPIO23 (Pin 16) |
+|  | in2 | — | GPIO22 (Pin 15) |
+| 第二顆幫浦 | in3 | — | GPIO27 (Pin 13) |
+|  | in4 | — | GPIO17 (Pin 11) |
 | 第三顆幫浦 | — | in1 | GPIO19 (Pin 35) |
 |  | — | in2 | GPIO13 (Pin 33) |
-| 第四顆幫浦 | — | in3 | GPIO6 (Pin 31) |
-|  | — | in4 | GPIO5 (Pin 29) |
+| 第四顆幫浦 | — | in3 | GPIO5 (Pin 29) |
+|  | — | in4 | GPIO6 (Pin 31) |
 
 ## Existing Library/Software 技術概覽
 - Docker (Docker image 、 Docker container)
