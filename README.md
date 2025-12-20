@@ -49,8 +49,9 @@
 ## Existing Library/Software 技術概覽
 - Docker (Docker image 、 Docker container)
 - GPIO (RPi.GPIO==0.7.1)
-
-
+- fastapi==0.115.5
+- uvicorn[standard]==0.32.1
+- pydantic==2.10.3
 
 <!-- Which libraries do you use while you implement the project -->
 ## System Architecture Diagram 系統流程圖
