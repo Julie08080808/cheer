@@ -92,12 +92,12 @@ sudo apt update
 ```
 sudo apt install git -y
 ```
+查看git版本
 ```
 git --version
-
 ```
 ### 從 GitHub 下載 cheer 專案
-可以在樹梅派中，選擇一個你想存放專案的位置，並進去(在這邊我們選一了 home)
+可以在樹梅派中，選擇一個你想存放專案的位置，並進去(在這邊我們選了 home)
 ```
 cd ~
 ```
@@ -125,9 +125,9 @@ cheer/
 ├── Dockerfile
 └── .dockerignore
 ```
-
 ### 在樹莓派安裝 Docker
-首先要使用docker在樹梅派安裝docker，才可以對我們的專案進行使用，
+首先要使用docker在樹梅派安裝docker，才可以對我們的專案進行使用
+
 #### 下載並執行官方安裝腳本
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -160,14 +160,19 @@ docker run -d -p 8000:8000 <<容器名稱>>
 
 這樣我們的環境就建立好了!!
 
-
-
-
 <!-- How do the user install with your project? -->
 
 ## Usage 使用方法
-1. 使用者在開始遊戲之前，事先連進與樹梅派同個網路(wifi)，利用自己的設備開啟瀏覽器，並輸入<<樹梅派的 IP:8000>>，進入遊戲首頁 
-2. 進入到首頁後，玩家可以點選開始遊戲，並導入選擇模式介面。遊戲模式主要有兩種，一種是**闔家歡模式**，一種是**無乃酒鬼模式**，底下有兩種遊戲的差別。玩家可以從兩種模式中選擇其中一種遊玩。
+
+# 打開終端到你想要使用的資料夾 clone 本專案
+```
+https://github.com/Julie08080808/cheer.git
+```
+# 請先安裝 Docker，網址```https://www.docker.com/products/docker-desktop/```
+# 在目標專案資料夾中開啟終端，執行 ```docker compose up --build```
+# 更改了 Dockerfile 後重 run Docker ```docker compose down -v``` 再 ```docker compose up --build```
+# 使用者在開始遊戲之前，事先連進與樹梅派同個網路(wifi)，利用自己的設備開啟瀏覽器，並輸入<<樹梅派的 IP:8000>>，進入遊戲首頁 
+# 進入到首頁後，玩家可以點選開始遊戲，並導入選擇模式介面。遊戲模式主要有兩種，一種是# 進入到首頁後，玩家可以點選開始遊戲，並導入選擇模式介面。遊戲模式主要有兩種，一種是**闔家歡模式**，一
 
   模式介紹
   | 項目 | 酒鬼模式 | 闔家歡模式 |
