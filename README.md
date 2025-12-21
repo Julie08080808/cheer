@@ -225,30 +225,6 @@ docker run -d \
 ```
 http://<樹莓派IP>:8000
 ```
-(這段目前先不用!)
-### 打開終端到你想要使用的資料夾 clone 本專案
-```
-https://github.com/Julie08080808/cheer.git
-git pull https://github.com/NCNU-OpenSource/cheer.git
-```
-### 請先安裝 Docker，網址
-```
-https://www.docker.com/products/docker-desktop/
-```
-### 在目標專案資料夾中開啟終端，執行 
-```
-docker compose up --build
-```
-### 更改了 Dockerfile 後重 run Docker 
-```
-docker compose down -v
-docker compose up --build
-```
-### 使用者在開始遊戲之前，事先連進與樹梅派同個網路(wifi)，利用自己的設備開啟瀏覽器，並輸入 IP 進入遊戲首頁
-```
-http://<<樹梅派的 IP>>:8000
-```
-(到這段)
 
 ![photo_2025-12-21_16-14-33](https://github.com/user-attachments/assets/683fdb68-0e71-4074-b01b-47ceb43c2818)
 
