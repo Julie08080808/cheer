@@ -47,6 +47,14 @@
 
 在硬體實作部分，樹莓派透過 GPIO 輸出控制訊號，連接至 L298N 馬達驅動多顆幫浦。每一顆幫浦對應到特定 GPIO 腳位與控制通道，系統會將遊戲結果轉換為「酒款（幫浦選擇）＋出酒時間（秒數）」等控制參數，並由控制模組執行倒酒動作。至此，我們完成了從玩家透過網頁互動、伺服器處理，到實體調酒輸出的完整閉環 ~！
 
+
+### System Architecture Diagram 系統流程圖
+<img width="602" height="1169" alt="系統架構" src="https://github.com/user-attachments/assets/573f0fab-74ee-49c2-84d5-23cb1c38ae1e" />
+
+### Functional Map 功能架構圖
+<img width="881" height="1641" alt="功能架構" src="https://github.com/user-attachments/assets/3768df74-1e26-452c-aee1-b596c8fa9a71" />
+
+
 ### Hardware architecture 硬體架構
 
 <img width="927" height="717" alt="image" src="https://github.com/user-attachments/assets/318b7976-802f-4700-b935-6ae3e64e6f4a" />
@@ -69,14 +77,6 @@
 
 在調酒機的正面，我們會將四條輸出管固定並綁在一起，形成一個統一的出口，讓所有飲品從同一位置流出，看起來更整齊也更方便使用。最後，透過遊戲條件觸發幫浦，系統會自動加入指定的酒品，完成整個自動調酒流程。
 ![photo_2025-12-21_13-18-03](https://github.com/user-attachments/assets/b2a3274d-e9f7-4425-a5a1-e596e2aa854e)
-
-
-
-### System Architecture Diagram 系統流程圖
-<img width="602" height="1169" alt="系統架構" src="https://github.com/user-attachments/assets/573f0fab-74ee-49c2-84d5-23cb1c38ae1e" />
-
-### Functional Map 功能架構圖
-<img width="881" height="1641" alt="功能架構" src="https://github.com/user-attachments/assets/3768df74-1e26-452c-aee1-b596c8fa9a71" />
 
 
 
