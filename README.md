@@ -30,8 +30,25 @@
 - 蠟筆
 - 標籤紙
 
-## Hardware architecture 硬體架構
-硬體架構圖
+## Existing Library/Software 技術概覽
+<!-- Which libraries do you use while you implement the project -->
+- Docker (Docker image 、 Docker container)
+- RPi.GPIO (0.7.1)
+- fastapi (0.115.5)
+- uvicorn[standard] (0.32.1)
+- pydantic (2.10.3)
+
+
+## Implementation Process
+
+我們的目的是建立一套「多人派對遊戲 × 自動調酒機」的整合系統。整體流程由玩家端裝置作為操作介面，透過同一個網段連線至樹莓派。樹莓派同時擔任遊戲伺服器（Game Server）與調酒控制模組（Drink Controller），接收玩家操作後進行遊戲邏輯判斷，再輸出對應的硬體控制指令。
+
+在系統架構上，我們先完成網路連線與房間流程：第一位玩家加入房間、鎖上另一個房間、玩家輸入使用者名稱、等待人數到齊、由房主開始遊戲，並透過轉盤決定出手順序與開局設定。接著實作核心遊戲邏輯，以兩顆六面骰作為事件觸發依據，依據不同點數組合對應不同遊戲事件，並支援兩種模式：酒鬼模式（無積分、輸了直接喝、同一人累計喝三杯結束）與闔家歡模式（積分制、房內發生5次喝酒事件即結束）。
+
+在硬體實作部分，樹莓派透過 GPIO 輸出控制訊號，連接至 L298N 馬達驅動多顆幫浦。每一顆幫浦對應到特定 GPIO 腳位與控制通道，系統會將遊戲結果轉換為「酒款（幫浦選擇）＋出酒時間（秒數）」等控制參數，並由控制模組執行倒酒動作。至此，我們完成了從玩家透過網頁互動、伺服器處理，到實體調酒輸出的完整閉環 ~！
+
+### Hardware architecture 硬體架構
+
 <img width="927" height="717" alt="image" src="https://github.com/user-attachments/assets/318b7976-802f-4700-b935-6ae3e64e6f4a" />
 
 硬體腳位對應
@@ -46,28 +63,22 @@
 | 第四顆幫浦 | — | in3 | GPIO5 (Pin 29) |
 |  | — | in4 | GPIO6 (Pin 31) |
 
-## Existing Library/Software 技術概覽
-- Docker (Docker image 、 Docker container)
-- GPIO (RPi.GPIO==0.7.1)
-- fastapi==0.115.5
-- uvicorn[standard]==0.32.1
-- pydantic==2.10.3
 
-<!-- Which libraries do you use while you implement the project -->
-## System Architecture Diagram 系統流程圖
+完成硬體電路接線後，將整組裝入紙箱中，再依需求將幫浦接上適當長度的塑膠管，即可完成調酒機的機台組裝！
+![photo_2025-12-21_13-18-04](https://github.com/user-attachments/assets/a1ce9226-6770-4668-84ca-c9321ceb5ff9)
+
+在調酒機的正面，我們會將四條輸出管固定並綁在一起，形成一個統一的出口，讓所有飲品從同一位置流出，看起來更整齊也更方便使用。最後，透過遊戲條件觸發幫浦，系統會自動加入指定的酒品，完成整個自動調酒流程。
+![photo_2025-12-21_13-18-03](https://github.com/user-attachments/assets/b2a3274d-e9f7-4425-a5a1-e596e2aa854e)
+
+
+
+### System Architecture Diagram 系統流程圖
 <img width="602" height="1169" alt="系統架構" src="https://github.com/user-attachments/assets/573f0fab-74ee-49c2-84d5-23cb1c38ae1e" />
 
-## Functional Map 功能架構圖
+### Functional Map 功能架構圖
 <img width="881" height="1641" alt="功能架構" src="https://github.com/user-attachments/assets/3768df74-1e26-452c-aee1-b596c8fa9a71" />
 
 
-## Implementation Process
-
-我們的目的是建立一套「多人派對遊戲 × 自動調酒機」的整合系統。整體流程由玩家端裝置作為操作介面，透過同一個網段連線至樹莓派。樹莓派同時擔任遊戲伺服器（Game Server）與調酒控制模組（Drink Controller），接收玩家操作後進行遊戲邏輯判斷，再輸出對應的硬體控制指令。
-
-在系統架構上，我們先完成網路連線與房間流程：第一位玩家加入房間、鎖上另一個房間、玩家輸入使用者名稱、等待人數到齊、由房主開始遊戲，並透過轉盤決定出手順序與開局設定。接著實作核心遊戲邏輯，以兩顆六面骰作為事件觸發依據，依據不同點數組合對應不同遊戲事件，並支援兩種模式：酒鬼模式（無積分、輸了直接喝、同一人累計喝三杯結束）與闔家歡模式（積分制、房內發生5次喝酒事件即結束）。
-
-在硬體實作部分，樹莓派透過 GPIO 輸出控制訊號，連接至 L298N 馬達驅動多顆幫浦。每一顆幫浦對應到特定 GPIO 腳位與控制通道，系統會將遊戲結果轉換為「酒款（幫浦選擇）＋出酒時間（秒數）」等控制參數，並由控制模組執行倒酒動作。至此，我們完成了從玩家透過網頁互動、伺服器處理，到實體調酒輸出的完整閉環 ~！
 
 ## Knowledge from Lecture
 
