@@ -114,7 +114,7 @@ cd ~
 ```
 使用 git clone 下載專案
 ```
-git clone https://github.com/Julie08080808/cheer.git
+git clone https://github.com/NCNU-OpenSource/cheer.git
 ```
 進入專案資料夾
 ```
@@ -156,19 +156,39 @@ newgrp docker
 docker --version
 ```
 ### 建立容器
+確認在`cheer`底下，執行以下指令建立容器 image：
 ```
 docker build -t <<建立容器的名稱>> .
 ```
-### 看看有哪些正在運行的容器
+> <容器名稱> 可以自行命名，例如 cheer
+
+#### 查看我們建立好的image
+這樣就能確認剛剛建立的 image 是否存在
 ```
 docker images 
 ```
-### 跑容器
+#### 查看是否有容器正在運行
+在啟動遊戲伺服器之前，先檢查你的 Raspberry Pi 是否已有容器在運行，以避免 port 衝突
 ```
-docker run -d -p 8000:8000 <<容器名稱>>
+docker ps -a
 ```
-### 打開瀏覽器輸入樹梅派IP:8000就能進到我們的網站
+#### 執行容器
+```
+docker run -d \
+     --name <<容器名稱>> \
+     --privileged \
+     --device /dev/gpiomem:/dev/gpiomem \
+     -p 8000:8000 \
+     <<容器名稱>>:latest
+```
+> <容器名稱> 為你建立的 image 名稱，例如 cheer-game
 
+### 打開瀏覽器
+在瀏覽器輸入：
+```
+http://<樹莓派IP>:8000
+```
+即可進入遊戲網站並開始使用。
 這樣我們的環境就建立好了!!
 
 <!-- How do the user install with your project? -->
@@ -178,6 +198,7 @@ docker run -d -p 8000:8000 <<容器名稱>>
 ### 打開終端到你想要使用的資料夾 clone 本專案
 ```
 https://github.com/Julie08080808/cheer.git
+git pull https://github.com/NCNU-OpenSource/cheer.git
 ```
 ### 請先安裝 Docker，網址
 ```
