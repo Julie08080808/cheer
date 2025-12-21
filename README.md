@@ -312,7 +312,7 @@ docker compose up --build
 ### 酒支援
 - Reg
 - BT(烈酒)
-- 宣佑
+- @ume-latte
 
 ## 客串名單
 BlueT、蓬萊人偶、Josh學長、陳章銓(Jerry)、張峻碩、李玨叡(Jerry)
