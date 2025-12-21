@@ -200,7 +200,7 @@ http://<樹莓派IP>:8000
 > 在執行以下指令前，請先確認已安裝並啟動 Docker 環境。(若沒有請依照上方步驟進行安裝)
 ### 從 docker hub 拉取 image
 ```
-docker pull julie08080808/cheer:latest
+docker pull lydiaguo/cheer:latest
 ```
 ### 查看是否有容器正在運行
 在啟動遊戲伺服器之前，先檢查你的 Raspberry Pi 是否已有容器在運行，以避免 port 衝突
