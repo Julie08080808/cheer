@@ -184,7 +184,7 @@ docker run -d \
      -p 8000:8000 \
      <<容器名稱>>:latest
 ```
-> <容器名稱> 為你建立的 image 名稱，例如 cheer-game
+> <容器名稱> 為你建立的 image 名稱，例如 cheer
 
 ### 打開瀏覽器
 在瀏覽器輸入：
