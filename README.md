@@ -143,7 +143,9 @@ cheer/
 ├── Dockerfile
 └── .dockerignore
 ```
+:::spoiler
 ### 在樹莓派安裝 Docker
+
 首先要使用docker在樹梅派安裝docker，才可以對我們的專案進行使用
 
 #### 下載並執行官方安裝腳本
@@ -162,6 +164,7 @@ newgrp docker
 # 測試安裝
 docker --version
 ```
+:::
 ### 建立容器
 確認在`cheer`底下，執行以下指令建立容器 image：
 ```
