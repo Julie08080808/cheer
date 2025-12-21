@@ -250,12 +250,12 @@ http://<<樹梅派的 IP>>:8000
 ```
 (到這段)
 
-![photo_2025-12-21_13-18-03](https://github.com/user-attachments/assets/229b7e5f-9286-4a16-8226-c8c7996745c1)
+![photo_2025-12-21_16-14-33](https://github.com/user-attachments/assets/683fdb68-0e71-4074-b01b-47ceb43c2818)
 
 
 ### 進入到首頁後，玩家可以點選開始遊戲，並導入選擇模式介面。遊戲模式主要有兩種，一種是# 進入到首頁後，玩家可以點選開始遊戲，並導入選擇模式介面。遊戲模式主要有兩種，一種是**闔家歡模式**，一
 
-![photo_2025-12-21_13-18-03](https://github.com/user-attachments/assets/2421f9eb-2a48-443d-bbbc-ea4226864f25)
+![photo_2025-12-21_16-14-07](https://github.com/user-attachments/assets/d60468b4-f6dd-49b6-b468-a0d3f2413850)
 
   
   模式介紹
