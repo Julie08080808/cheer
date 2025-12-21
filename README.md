@@ -8,27 +8,34 @@
 
 ***讓使用者透過網頁進行遊戲，由系統調製飲品的人機互動系統 ⭐***
 
-## Implementation Resources 硬體資源
+## Implementation Resources 使用資源
 
-- raspberry pi4 x1
-- MW明緯 LRS-50-12 電源供應器（AC→DC Power Supply） x1
-- L289N 馬達驅動器 x2
-- 幫浦 x4
-- 塑膠管3米
-- 杜邦線數條 (母母、公母線)
-- 紅黑線3米
-- 麵包版一塊(小的)
-- 銲槍、焊錫
-- AC電源線
-- type c 充電線
-- 角柱
-- 紙箱2個 (一大一小)
-- 棉花棒
-- 膠帶
-- 熱融槍
-- 美工刀、剪刀
-- 蠟筆
-- 標籤紙
+| 物品名稱 | 數量 | 價格(TWD) |
+|---------|------|------|
+| raspberry pi4 | 1個 | 0 |
+| MW明緯 LRS-50-12 電源供應器（AC→DC Power Supply） | 1個 | 290 |
+| L289N 馬達驅動器 | 2個 | 200 |
+| 幫浦 | 4個 | 400 |
+| 塑膠管 | 3米 | 30 |
+| 杜邦線數條 (母母、公母線) | 數條 | 0 |
+| 紅黑線 | 3米 | 30 |
+| 麵包板 | 1塊 | 0 |
+| 銲槍、焊錫 | 1組 | 0 |
+| AC電源線 | 1條 | 0 |
+| Type C 充電線 | 1條 | 0 |
+| 角柱 | 5個 | 0 |
+| 紙箱(一大一小) | 2個 | 0 |
+| 棉花棒 | 數個 | 0 |
+| 膠帶 | 數個 | 0 |
+| 熱融槍 | 1隻 | 0 |
+| 美工刀、剪刀 | 1個 | 0 |
+| 蠟筆 | 1組 | 0 |
+| 標籤紙 | 數張 | 0 |
+| 塑膠小杯 | 1袋 | 29 |
+| 旋轉杯 | 4個 | 100 |
+| 塑膠量杯 | 5個 | 225 |
+| 飲料 | 5瓶 | 199 |
+| 運費 | x | 14 |
 
 ## Existing Library/Software 技術概覽
 <!-- Which libraries do you use while you implement the project -->
@@ -320,20 +327,6 @@ http://<樹莓派IP>:8000
 | 張廷伃 | 112213063 |前端、簡報製作、撰寫 README 、遊戲規則設定|
 | 莊佩諺 | 112213068 |前端、外殼設計、撰寫 README 、遊戲規則設定|
 
-## 花費
-| 物品名稱 | 數量 | 價格 |
-|---------|------|------|
-| 水管 | 4m | 30 |
-| 紅黑線 | 3m | 30 |
-| 幫浦 | 4個 | 400 |
-| 供電器 | 1個 | 290 |
-| 訊號器 | 2個 | 216 |
-| 塑膠小杯 | 1袋 | 29 |
-| 旋轉杯 | 4個 | 100 |
-| 塑膠量杯 | 5個 | 225 |
-| 飲料 | 5瓶 | 199 |
-| 雜項 | x | 14 |
-
 
 ## Acknowledgments 感謝名單
 
@@ -353,6 +346,7 @@ http://<樹莓派IP>:8000
 BlueT、蓬萊人偶、Josh學長、陳章銓(Jerry)、張峻碩、李玨叡(Jerry)
 
 ## References
+
 - https://www.youtube.com/watch?v=Ytjkh6xWdrY&t=212s
 - https://atceiling.blogspot.com/2014/01/raspberry-pigpio.html
 - https://hackmd.io/@ncnu-opensource/book/https%3A%2F%2Fhackmd.io%2F%40ncnu-opensource%2FSJfAeJSTle#Hello-World-%E7%AF%84%E4%BE%8B
