@@ -10,33 +10,33 @@
 
 ## Implementation Resources 使用資源
 
-| 物品名稱 | 數量 | 價格(TWD) |
-|---------|------|------|
-| raspberry pi4 | 1個 | 0 |
-| MW明緯 LRS-50-12 電源供應器（AC→DC Power Supply） | 1個 | 290 |
-| L289N 馬達驅動器 | 2個 | 200 |
-| 幫浦 | 4個 | 400 |
-| 塑膠管 | 3米 | 30 |
-| 杜邦線數條 (母母、公母線) | 數條 | 0 |
-| 紅黑線 | 3米 | 30 |
-| 麵包板 | 1塊 | 0 |
-| 銲槍、焊錫 | 1組 | 0 |
-| 熱縮套管 | 1條 | 0 |
-| AC電源線 | 1條 | 0 |
-| Type C 充電線 | 1條 | 0 |
-| 角柱 | 5個 | 0 |
-| 紙箱(一大一小) | 2個 | 0 |
-| 棉花棒 | 數個 | 0 |
-| 膠帶 | 數個 | 0 |
-| 熱融槍 | 1隻 | 0 |
-| 美工刀、剪刀 | 1個 | 0 |
-| 蠟筆 | 1組 | 0 |
-| 標籤紙 | 數張 | 0 |
-| 塑膠小杯 | 1袋 | 29 |
-| 旋轉杯 | 4個 | 100 |
-| 塑膠量杯 | 5個 | 225 |
-| 飲料 | 5瓶 | 199 |
-| 運費 | x | 14 |
+| 物品名稱 | 數量 | 價格(TWD) | 照片 |
+|---------|------|-----------|-----|
+| raspberry pi4 | 1個 | 0 | <img width="567" height="376" alt="image" src="https://github.com/user-attachments/assets/1c7da4b2-4e4f-4eaf-a701-cd7e382758a0" /> |
+| MW明緯 LRS-50-12 電源供應器（AC→DC Power Supply） | 1個 | 290 | <img width="282" height="289" alt="image" src="https://github.com/user-attachments/assets/c1e00cd6-0ca8-4b73-be65-c82327bf9275" /> |
+| L289N 馬達驅動器 | 2個 | 200 | <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/dcd1a9fa-83d8-425f-a1d1-09c3b44f295e" /> |
+| 幫浦 | 4個 | 400 | <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/20ffbf28-e997-4075-ab30-9bfa816a2263" /> |
+| 塑膠管 | 3米 | 30 | <img width="259" height="201" alt="image" src="https://github.com/user-attachments/assets/0c8655e2-2d57-4c78-86da-447fdb0169d5" /> |
+| 杜邦線數條 (母母、公母線) | 數條 | 0 | <img width="371" height="324" alt="image" src="https://github.com/user-attachments/assets/863d3c47-5fbb-4c0a-9454-92888d1137f2" /> |
+| 紅黑線 | 3米 | 30 | <img width="526" height="352" alt="image" src="https://github.com/user-attachments/assets/13fefadd-4214-4987-835f-78e5376b0b40" /> |
+| 麵包板 | 1塊 | 0 | <img width="267" height="280" alt="image" src="https://github.com/user-attachments/assets/b4b07a84-8f07-4eb7-b040-d4cb9838dc67" /> |
+| 銲槍、焊錫 | 1組 | 0 | <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/b1756637-5670-4bed-ba16-e22c78c18e08" /> |
+| AC電源線 | 1條 | 0 | <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/a564b516-3817-456d-8a5c-b868cd5e1310" /> |
+| Type C 充電線 | 1條 | 0 | <img width="585" height="367" alt="image" src="https://github.com/user-attachments/assets/325eb3ce-ccc8-465f-be4d-33639db836f6" /> |
+| 角柱 | 5個 | 0 |  |
+| 紙箱(一大一小) | 2個 | 0 |  |
+| 棉花棒 | 數個 | 0 | <img width="368" height="270" alt="image" src="https://github.com/user-attachments/assets/e36d63c5-5f4b-4692-9c2b-dba7cf0368a6" /> |
+| 膠帶 | 數個 | 0 |  |
+| 熱融槍 | 1隻 | 0 |  |
+| 美工刀、剪刀 | 1個 | 0 |  |
+| 蠟筆 | 1組 | 0 |  |
+| 標籤紙 | 數張 | 0 |  |
+| 塑膠小杯 | 1袋 | 29 |  |
+| 旋轉杯 | 4個 | 100 |  |
+| 塑膠量杯 | 5個 | 225 |  |
+| 飲料 | 5瓶 | 199 | <img width="197" height="273" alt="image" src="https://github.com/user-attachments/assets/d4089e5f-a565-440e-b84c-9d670dd512d9" /> |
+| 運費 | x | 14 | 無 |
+
 
 ## Existing Library/Software 技術概覽
 <!-- Which libraries do you use while you implement the project -->
