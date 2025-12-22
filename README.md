@@ -45,6 +45,7 @@
 - fastapi (0.115.5)
 - uvicorn[standard] (0.32.1)
 - pydantic (2.10.3)
+- python (3.11-bookworm)
 
 
 ## Implementation Process
