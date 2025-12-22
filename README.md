@@ -14,28 +14,28 @@
 |---------|------|-----------|-----|
 | raspberry pi4 | 1個 | 0 | <img width="300" height="156" alt="image" src="https://github.com/user-attachments/assets/1c7da4b2-4e4f-4eaf-a701-cd7e382758a0" /> |
 | MW明緯 LRS-50-12 電源供應器（AC→DC Power Supply） | 1個 | 290 | <img width="282" height="289" alt="image" src="https://github.com/user-attachments/assets/c1e00cd6-0ca8-4b73-be65-c82327bf9275" /> |
-| L289N 馬達驅動器 | 2個 | 200 | <img width="960" height="1072" alt="image" src="https://github.com/user-attachments/assets/0fe5eb32-695c-4ff4-8f98-42d2b713e9d6" /> |
-| 幫浦 | 4個 | 400 | <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/20ffbf28-e997-4075-ab30-9bfa816a2263" /> |
-| 塑膠管 | 3米 | 30 | <img width="259" height="201" alt="image" src="https://github.com/user-attachments/assets/0c8655e2-2d57-4c78-86da-447fdb0169d5" /> |
-| 杜邦線數條 (母母、公母線) | 數條 | 0 | <img width="371" height="324" alt="image" src="https://github.com/user-attachments/assets/863d3c47-5fbb-4c0a-9454-92888d1137f2" /> |
-| 紅黑線 | 3米 | 30 | <img width="526" height="352" alt="image" src="https://github.com/user-attachments/assets/13fefadd-4214-4987-835f-78e5376b0b40" /> |
-| 麵包板 | 1塊 | 0 | <img width="267" height="280" alt="image" src="https://github.com/user-attachments/assets/b4b07a84-8f07-4eb7-b040-d4cb9838dc67" /> |
-| 銲槍、焊錫 | 1組 | 0 | <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/b1756637-5670-4bed-ba16-e22c78c18e08" /> |
-| AC電源線 | 1條 | 0 | <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/a564b516-3817-456d-8a5c-b868cd5e1310" /> |
-| Type C 充電線 | 1條 | 0 | <img width="585" height="367" alt="image" src="https://github.com/user-attachments/assets/325eb3ce-ccc8-465f-be4d-33639db836f6" /> |
-| 角柱 | 5個 | 0 | <img width="1074" height="1080" alt="image" src="https://github.com/user-attachments/assets/415a60cb-2d87-40cc-8355-73ca7bbc666d" /> |
-| 紙箱(一大一小) | 2個 | 0 | <img width="1080" height="1130" alt="image" src="https://github.com/user-attachments/assets/291fa6bb-e166-4a1d-af31-6388259e5272" /> |
-| 棉花棒 | 數個 | 0 | <img width="368" height="270" alt="image" src="https://github.com/user-attachments/assets/e36d63c5-5f4b-4692-9c2b-dba7cf0368a6" /> |
-| 膠帶 | 數個 | 0 | <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/098402fe-1bbc-4e4c-94d9-c8da1564a593" /> |
-| 熱融槍 | 1隻 | 0 | <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/ebdeccea-7d5b-4ca8-bbf6-12c12653fea1" /> |
-| 美工刀、剪刀 | 1個 | 0 | <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/2ea8184b-7c1e-4aa9-a9ce-56f0f75ea31d" /> |
-| 蠟筆 | 1組 | 0 | <img width="346" height="268" alt="image" src="https://github.com/user-attachments/assets/46630d09-6402-4b98-8a92-4799e88069b0" /> |
-| 標籤紙 | 數張 | 0 | <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/d0d610e4-ec9b-4c8c-9856-54d7222d931e" /> |
-| 塑膠小杯 | 1袋 | 29 | <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/334cbd94-a6bb-4e40-a35d-8f01c9d7ed6e" /> |
-| 旋轉杯 | 4個 | 100 | <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/4170f2f4-7429-4252-a515-682df7a4d369" /> |
-| 塑膠量杯 | 5個 | 225 | <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/c02c3f9c-2288-476b-9b2c-86d8cbaffd16" /> |
-| 飲料 | 5瓶 | 199 | <img width="197" height="273" alt="image" src="https://github.com/user-attachments/assets/d4089e5f-a565-440e-b84c-9d670dd512d9" /> |
-| 酒 | 3瓶 | 0 | <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/496a2019-282b-45c4-bed7-981c04d50cf2" /> |
+| L289N 馬達驅動器 | 2個 | 200 | <img width="350"  alt="image" src="https://github.com/user-attachments/assets/0fe5eb32-695c-4ff4-8f98-42d2b713e9d6" /> |
+| 幫浦 | 4個 | 400 | <img width="350" alt="image" src="https://github.com/user-attachments/assets/20ffbf28-e997-4075-ab30-9bfa816a2263" /> |
+| 塑膠管 | 3米 | 30 | <img width="300" alt="image" src="https://github.com/user-attachments/assets/0c8655e2-2d57-4c78-86da-447fdb0169d5" /> |
+| 杜邦線數條 (母母、公母線) | 數條 | 0 | <img width="350" alt="image" src="https://github.com/user-attachments/assets/863d3c47-5fbb-4c0a-9454-92888d1137f2" /> |
+| 紅黑線 | 3米 | 30 | <img width="350" alt="image" src="https://github.com/user-attachments/assets/13fefadd-4214-4987-835f-78e5376b0b40" /> |
+| 麵包板 | 1塊 | 0 | <img width="300" alt="image" src="https://github.com/user-attachments/assets/b4b07a84-8f07-4eb7-b040-d4cb9838dc67" /> |
+| 銲槍、焊錫 | 1組 | 0 | <img width="350" alt="image" src="https://github.com/user-attachments/assets/b1756637-5670-4bed-ba16-e22c78c18e08" /> |
+| AC電源線 | 1條 | 0 | <img width="350" alt="image" src="https://github.com/user-attachments/assets/a564b516-3817-456d-8a5c-b868cd5e1310" /> |
+| Type C 充電線 | 1條 | 0 | <img width="350" alt="image" src="https://github.com/user-attachments/assets/325eb3ce-ccc8-465f-be4d-33639db836f6" /> |
+| 角柱 | 5個 | 0 | <img width="350" alt="image" src="https://github.com/user-attachments/assets/415a60cb-2d87-40cc-8355-73ca7bbc666d" /> |
+| 紙箱(一大一小) | 2個 | 0 | <img width="350" alt="image" src="https://github.com/user-attachments/assets/291fa6bb-e166-4a1d-af31-6388259e5272" /> |
+| 棉花棒 | 數個 | 0 | <img width="350" alt="image" src="https://github.com/user-attachments/assets/e36d63c5-5f4b-4692-9c2b-dba7cf0368a6" /> |
+| 膠帶 | 數個 | 0 | <img width="350" alt="image" src="https://github.com/user-attachments/assets/098402fe-1bbc-4e4c-94d9-c8da1564a593" /> |
+| 熱融槍 | 1隻 | 0 | <img width="350" alt="image" src="https://github.com/user-attachments/assets/ebdeccea-7d5b-4ca8-bbf6-12c12653fea1" /> |
+| 美工刀、剪刀 | 1個 | 0 | <img width="350" alt="image" src="https://github.com/user-attachments/assets/2ea8184b-7c1e-4aa9-a9ce-56f0f75ea31d" /> |
+| 蠟筆 | 1組 | 0 | <img width="300" alt="image" src="https://github.com/user-attachments/assets/46630d09-6402-4b98-8a92-4799e88069b0" /> |
+| 標籤紙 | 數張 | 0 | <img width="350" alt="image" src="https://github.com/user-attachments/assets/d0d610e4-ec9b-4c8c-9856-54d7222d931e" /> |
+| 塑膠小杯 | 1袋 | 29 | <img width="350" alt="image" src="https://github.com/user-attachments/assets/334cbd94-a6bb-4e40-a35d-8f01c9d7ed6e" /> |
+| 旋轉杯 | 4個 | 100 | <img width="350" alt="image" src="https://github.com/user-attachments/assets/4170f2f4-7429-4252-a515-682df7a4d369" /> |
+| 塑膠量杯 | 5個 | 225 | <img width="350" alt="image" src="https://github.com/user-attachments/assets/c02c3f9c-2288-476b-9b2c-86d8cbaffd16" /> |
+| 飲料 | 5瓶 | 199 | <img width="300" alt="image" src="https://github.com/user-attachments/assets/d4089e5f-a565-440e-b84c-9d670dd512d9" /> |
+| 酒 | 3瓶 | 0 | <img width="350" alt="image" src="https://github.com/user-attachments/assets/496a2019-282b-45c4-bed7-981c04d50cf2" /> |
 | 運費 | x | 14 | 無 |
 
 
