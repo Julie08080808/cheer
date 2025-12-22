@@ -12,8 +12,6 @@
 
 | 物品名稱 | 數量 | 價格(TWD) | 照片 |
 |---------|------|-----------|-----|
-| 物品名稱 | 數量 | 價格(TWD) | 照片 |
-|---------|------|-----------|-----|
 | raspberry pi4 | 1個 | 0 | <img width="300" height="156" alt="image" src="https://github.com/user-attachments/assets/1c7da4b2-4e4f-4eaf-a701-cd7e382758a0" /> |
 | MW明緯 LRS-50-12 電源供應器（AC→DC Power Supply） | 1個 | 290 | <img width="282" height="289" alt="image" src="https://github.com/user-attachments/assets/c1e00cd6-0ca8-4b73-be65-c82327bf9275" /> |
 | L289N 馬達驅動器 | 2個 | 200 | <img width="960" height="1072" alt="image" src="https://github.com/user-attachments/assets/0fe5eb32-695c-4ff4-8f98-42d2b713e9d6" /> |
@@ -454,14 +452,14 @@ http://<樹莓派IP>:8000
 ## Acknowledgments 感謝名單
 
 - BlueT
-- Reg 學長
+- Reg 學長 https://github.com/bs10081
 - Chat GPT
 - Gemini
 - Claude code
 - 蓬萊人偶
 
 ### 酒支援
-- Reg
+- Reg 學長 
 - BT(烈酒)
 - @ume-latte https://github.com/ume-latte
 
