@@ -12,7 +12,7 @@
 
 | 物品名稱 | 數量 | 價格(TWD) | 照片 |
 |---------|------|-----------|-----|
-| raspberry pi4 | 1個 | 0 | <img width="567" height="376" alt="image" src="https://github.com/user-attachments/assets/1c7da4b2-4e4f-4eaf-a701-cd7e382758a0" /> |
+| raspberry pi4 | 1個 | 0 | <img width="300" height="156" alt="image" src="https://github.com/user-attachments/assets/1c7da4b2-4e4f-4eaf-a701-cd7e382758a0" /> |
 | MW明緯 LRS-50-12 電源供應器（AC→DC Power Supply） | 1個 | 290 | <img width="282" height="289" alt="image" src="https://github.com/user-attachments/assets/c1e00cd6-0ca8-4b73-be65-c82327bf9275" /> |
 | L289N 馬達驅動器 | 2個 | 200 | <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/dcd1a9fa-83d8-425f-a1d1-09c3b44f295e" /> |
 | 幫浦 | 4個 | 400 | <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/20ffbf28-e997-4075-ab30-9bfa816a2263" /> |
